@@ -1,0 +1,99 @@
+.tab-content-animation {
+  transform: translateY(0);
+}
+.tab-content-animation-enter-active,
+.tab-content-animation-leave-active {
+  transition: .2s all ease-in-out;
+}
+.tab-content-animation-enter,
+.tab-content-animation-leave-to {
+  opacity: 0;
+}
+
+.episode-animation-enter-active,
+.episode-animation-leave-active {
+  transition: .4s all ease-in-out;
+}
+.episode-animation-enter,
+.episode-animation-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+.episode-detail-animation {
+  overflow: hidden;
+  max-height: 400px;
+}
+.episode-detail-animation-enter-active,
+.episode-detail-animation-leave-active {
+  transition: .2s all ease-in-out;
+}
+.episode-detail-animation-enter,
+.episode-detail-animation-leave-to {
+  max-height: 0;
+  opacity: 0;
+}
+
+.fade-animation {
+  opacity: 1;
+}
+.fade-animation-enter-active,
+.fade-animation-leave-active {
+  transition: .4s opacity ease-in-out;
+}
+.fade-animation-enter,
+.fade-animation-leave-to {
+  opacity: 0;
+}
+
+.episodes-animation {
+  transform: translateX(0);
+}
+.episodes-animation-enter-active,
+.episodes-animation-leave-active {
+  transition: .6s opacity ease-in-out;
+}
+.episodes-animation-enter,
+.episodes-animation-leave-to {
+  transform: translateX(-500px);
+  opacity: 0;
+}
+
+.from-top-animation {
+  transform: translateX(0);
+}
+.from-top-animation-enter-active,
+.from-top-animation-leave-active {
+  transition: .4s all ease-in-out;
+}
+.from-top-animation-enter,
+.from-top-animation-leave-to {
+  transform: translateY(-200%);
+  opacity: 0;
+}
+
+.from-bottom-animation {
+  transform: translateX(0);
+}
+.from-bottom-animation-enter-active,
+.from-bottom-animation-leave-active {
+  transition: .4s all ease-in-out;
+}
+.from-bottom-animation-enter,
+.from-bottom-animation-leave-to {
+  transform: translateY(200%);
+  opacity: 0;
+}
+// From right Animation
+.from-right-animation {
+  transform: translateX(0);
+}
+.from-right-animation-enter-active,
+.from-right-animation-leave-active {
+  transition: .4s all ease-in-out;
+}
+.from-right-animation-enter,
+.from-right-animation-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}

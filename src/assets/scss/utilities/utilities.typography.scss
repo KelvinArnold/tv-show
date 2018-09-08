@@ -1,0 +1,40 @@
+// Utilities Typography
+.fs-caption {
+  @include typography('caption');
+}
+
+.fs-body {
+  @include typography('body');
+}
+
+.fs-subheading {
+  @include typography('subheading');
+}
+
+.fs-title {
+  @include typography('title');
+}
+
+.fs-sub-title {
+  @include typography('subtitle');
+}
+
+.fs-headline {
+  @include typography('headline');
+}
+
+.fs-display {
+  @include typography('display');
+}
+
+.fs-uppercase {
+  text-transform: uppercase;
+}
+
+.fs-lowercase {
+  text-transform: lowercase;
+}
+
+.fs-bold {
+  font-weight: 600;
+}
